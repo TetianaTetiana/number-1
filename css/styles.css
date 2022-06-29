@@ -141,7 +141,7 @@ body{
     }
 }
 
-@media (max-width:479px) {
+@media (max-width:470px) {
     .nav {
         margin-left: 40px;
     }
@@ -151,8 +151,25 @@ body{
     }
 
     .nav-list {
-        gap: 12px;
+        gap: 10px;
     }
+}
+@media (max-width:464px) {
+    .nav-item a {
+        padding-left: 50px;
+    }
+    
+}
+@media (max-width:410px) {
+    .nav-item a {
+        padding-left: 20px;
+    }
+
+}
+@media (max-width:350px) {
+.nav {
+    margin-left: 20px;
+}
 }
 /* MAIN ---------------------------------------------------------------------*/
 
@@ -234,8 +251,12 @@ body{
     }
 }
 
-@media (max-width:479px) {
-
+@media (max-width:410px) {
+    .main-title {
+        
+        font-size: 53px;
+        
+    }
 }
 
 /* Section 1 ----------------------------------------------------------------*/
